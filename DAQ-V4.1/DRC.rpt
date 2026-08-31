@@ -1,0 +1,20 @@
+** Drc report for DAQ-V4.1.kicad_pcb **
+** Created on 2026-07-15T20:02:12-0400 **
+
+** Found 3 DRC violations **
+[lib_footprint_mismatch]: Footprint 'HRS_DM3BT-DSF-PEJS' does not match copy in library 'DM3BT-DSF-PEJS'.
+    Local override; warning
+    @(160.3000 mm, 89.2625 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'SON125P300X500X100-8N' does not match copy in library 'MS560702BA03-50'.
+    Local override; warning
+    @(172.6250 mm, 73.3750 mm): Footprint U5
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(150.0000 mm, 26.0000 mm): Zone [GND] on F.Cu
+    @(170.5631 mm, 37.5229 mm): Pad 6 [GND] of U2 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

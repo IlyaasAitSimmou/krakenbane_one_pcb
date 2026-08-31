@@ -1,0 +1,11 @@
+ERC report (2026-07-17T12:10:21-0400, Encoding UTF8)
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(10850 mils, 6400 mils): Symbol #PWR057 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(10850 mils, 8500 mils): Symbol #PWR025 Pin 1 [Power input, Line]
+
+ ** ERC messages: 2  Errors 2  Warnings 0

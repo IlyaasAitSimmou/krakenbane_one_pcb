@@ -1,0 +1,16 @@
+** Drc report for DAQ-GPS_Breakout-V1.0.kicad_pcb **
+** Created on 2026-07-17T22:23:24-0400 **
+
+** Found 2 DRC violations **
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(184.0000 mm, 110.9500 mm): Zone [GND] on F.Cu
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(184.0000 mm, 110.9500 mm): Zone [GND] on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

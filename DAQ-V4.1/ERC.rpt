@@ -1,0 +1,134 @@
+ERC report (2026-07-15T14:18:23-0400, Encoding UTF8)
+
+***** Sheet /
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2000 mils, 6000 mils): Symbol J4 Pin SW-B [SW-B, Bidirectional, Line]
+    @(18000 mils, 13150 mils): Symbol U2 Pin 6 [GND, Power output, Line]
+[lib_symbol_mismatch]: Symbol 'DM3BT-DSF-PEJS' doesn't match copy in library 'DM3BT-DSF-PEJS'
+    ; warning
+    @(2700 mils, 6000 mils): Symbol J4 [DM3BT-DSF-PEJS]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8450 mils, 3550 mils): Symbol XTAL1 Pin 2 [2, Unspecified, Line]
+    @(8200 mils, 3400 mils): Symbol C57 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(2050 mils, 8950 mils): Symbol IC1 [W25Q64JVSSIQ]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(8550 mils, 3550 mils): Symbol XTAL1 [NX3225GA-16.000M-STD-CRG-2]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8550 mils, 3550 mils): Symbol XTAL1 Pin 1 [1, Unspecified, Line]
+    @(8500 mils, 3400 mils): Symbol C57 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8450 mils, 5150 mils): Symbol XTAL1 Pin 3 [3, Unspecified, Line]
+    @(8400 mils, 5300 mils): Symbol C58 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8550 mils, 5150 mils): Symbol XTAL1 Pin 4 [4, Unspecified, Line]
+    @(8100 mils, 5300 mils): Symbol C58 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9200 mils, 5250 mils): Horizontal Wire, length 102 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9098 mils, 5250 mils): Symbol #PWR024 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(10850 mils, 2700 mils): Symbol #PWR05 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(11650 mils, 2700 mils): Symbol #PWR07 Pin 1 [Power input, Line]
+[multiple_net_names]: Both +3.3V and VTref are attached to the same items; +3.3V will be used in the netlist
+    ; warning
+    @(18650 mils, 7350 mils): Symbol #PWR053 Pin 1 [Power input, Line]
+    @(11000 mils, 11700 mils): Label 'VTref'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(18350 mils, 2650 mils): Symbol U9 Pin 3 [IN, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(18300 mils, 4100 mils): Symbol #PWR017 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(18050 mils, 9700 mils): Symbol U4 [ADXL375BCCZ]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(18050 mils, 9700 mils): Symbol U4 Pin 1 [VDD_I/O, Unspecified, Line]
+    @(18050 mils, 9500 mils): Symbol C25 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(18050 mils, 9900 mils): Symbol U4 Pin 6 [VS, Unspecified, Line]
+    @(18050 mils, 9500 mils): Symbol C25 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(18050 mils, 10100 mils): Symbol U4 Pin 14 [SCL/SCLK, Unspecified, Line]
+    @(12750 mils, 4350 mils): Symbol R(PULL)19 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(18050 mils, 10300 mils): Symbol U4 Pin 13 [SDA/SDI/SDIO, Unspecified, Line]
+    @(12750 mils, 7850 mils): Symbol R(PULL)18 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(18050 mils, 10500 mils): Symbol U4 Pin 12 [SDO/ALT_ADDRESS, Unspecified, Line]
+    @(17650 mils, 10500 mils): Symbol #PWR066 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(18050 mils, 10700 mils): Symbol U4 Pin 7 [*CS, Unspecified, Line]
+    @(18050 mils, 10500 mils): Symbol U4 Pin 12 [SDO/ALT_ADDRESS, Unspecified, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(18000 mils, 12650 mils): Symbol U2 [LSM6DSV32XTR]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(18000 mils, 12650 mils): Symbol U2 Pin 1 [SDO/SA0, Unspecified, Line]
+    @(18000 mils, 12750 mils): Symbol U2 Pin 2 [SDX/AH1/QVAR1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(18000 mils, 12750 mils): Symbol U2 Pin 2 [SDX/AH1/QVAR1, Unspecified, Line]
+    @(18000 mils, 12850 mils): Symbol U2 Pin 3 [SCX/AH2/QVAR2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(18000 mils, 12850 mils): Symbol U2 Pin 3 [SCX/AH2/QVAR2, Unspecified, Line]
+    @(17850 mils, 12650 mils): Symbol #PWR079 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(18000 mils, 13150 mils): Symbol U2 Pin 6 [GND, Power output, Line]
+    @(18000 mils, 13250 mils): Symbol U2 Pin 7 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(20850 mils, 10000 mils): Symbol U4 Pin 2 [GND, Unspecified, Line]
+    @(20850 mils, 10100 mils): Symbol U4 Pin 4 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(20850 mils, 10100 mils): Symbol U4 Pin 4 [GND, Unspecified, Line]
+    @(20850 mils, 10200 mils): Symbol #PWR063 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(20850 mils, 10200 mils): Symbol U4 Pin 5 [GND, Unspecified, Line]
+    @(20850 mils, 10200 mils): Symbol #PWR063 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20600 mils, 12650 mils): Symbol U2 Pin 14 [SDA, Unspecified, Line]
+    @(12750 mils, 5950 mils): Symbol R(PULL)2 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20600 mils, 12750 mils): Symbol U2 Pin 13 [SCL, Unspecified, Line]
+    @(12750 mils, 5850 mils): Symbol R(PULL)1 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(20600 mils, 12850 mils): Symbol U2 Pin 12 [CS, Unspecified, Line]
+    @(20600 mils, 13250 mils): Symbol U2 Pin 8 [VDD, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(20600 mils, 12950 mils): Symbol U2 Pin 11 [SDO_AUX, Unspecified, Line]
+    @(20600 mils, 12850 mils): Symbol U2 Pin 12 [CS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(20600 mils, 13050 mils): Symbol U2 Pin 10 [OCS_AUX, Unspecified, Line]
+    @(20600 mils, 12950 mils): Symbol U2 Pin 11 [SDO_AUX, Unspecified, Line]
+
+ ** ERC messages: 35  Errors 5  Warnings 30

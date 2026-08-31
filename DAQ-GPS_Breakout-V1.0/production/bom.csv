@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C(SAM-M10Q)1, C(SAM-M10Q)3",0603,2,C (1 µF),
+"C(SAM-M10Q)2, C(SAM-M10Q)4",0603,2,C (100 nF),
+C(SAM-M10Q)5,0603,1,C (10 µF),
+J6,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,1,GNSS Connector - GNSS,
+U3,XCVR_SAM-M10Q-00B,1,SAM-M10Q-00B,
